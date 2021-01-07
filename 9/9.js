@@ -2,7 +2,6 @@ const IN = document.getElementById("input");
 var empty = document.getElementById("empty");
 var my = 0;
 
-
 function add(numbers) {
     if (IN.value.length >= 2) {
         if (IN.value[IN.value.length - 2].match(/[/*+-]/) && numbers === '.') {alert("STOP CLICKING PLZ");
